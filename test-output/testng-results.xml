@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="48599" started-at="2021-03-16T16:29:02Z" finished-at="2021-03-16T16:29:51Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="48599" started-at="2021-03-16T16:29:02Z" finished-at="2021-03-16T16:29:51Z">
+      <class name="com.magento.testcases.LoginPageTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.magento.testcases.LoginPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="25738" started-at="2021-03-16T21:59:02Z" finished-at="2021-03-16T21:59:28Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="FAIL" signature="loginFailureTest()[pri:0, instance:com.magento.testcases.LoginPageTest@ae45eb6]" name="loginFailureTest" duration-ms="4812" started-at="2021-03-16T21:59:28Z" finished-at="2021-03-16T21:59:33Z">
+          <exception class="java.lang.AssertionError">
+            <message>
+              <![CDATA[UNABLE TO LOGIN expected [My Accou] but found [My Account]]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.AssertionError: UNABLE TO LOGIN expected [My Accou] but found [My Account]
+	at org.testng.Assert.fail(Assert.java:94)
+	at org.testng.Assert.failNotEquals(Assert.java:513)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:135)
+	at org.testng.Assert.assertEquals(Assert.java:116)
+	at org.testng.Assert.assertEquals(Assert.java:190)
+	at com.magento.testcases.LoginPageTest.loginFailureTest(LoginPageTest.java:38)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:104)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:645)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:851)
+	at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1177)
+	at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:129)
+	at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:112)
+	at org.testng.TestRunner.privateRun(TestRunner.java:756)
+	at org.testng.TestRunner.run(TestRunner.java:610)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:387)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:382)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:289)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1293)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1218)
+	at org.testng.TestNG.runSuites(TestNG.java:1133)
+	at org.testng.TestNG.run(TestNG.java:1104)
+	at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.AssertionError -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginFailureTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.testcases.LoginPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="1698" started-at="2021-03-16T21:59:33Z" finished-at="2021-03-16T21:59:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.magento.testcases.LoginPageTest@ae45eb6]" name="setUp" is-config="true" duration-ms="11048" started-at="2021-03-16T21:59:35Z" finished-at="2021-03-16T21:59:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginSuccessTest()[pri:0, instance:com.magento.testcases.LoginPageTest@ae45eb6]" name="loginSuccessTest" duration-ms="3749" started-at="2021-03-16T21:59:46Z" finished-at="2021-03-16T21:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginSuccessTest -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.magento.testcases.LoginPageTest@ae45eb6]" name="tearDown" is-config="true" duration-ms="1437" started-at="2021-03-16T21:59:49Z" finished-at="2021-03-16T21:59:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.magento.testcases.LoginPageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
